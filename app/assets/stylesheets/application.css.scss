@@ -17,7 +17,7 @@ body {
 }
 
 .navbar-default .navbar-brand {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: bold;
   color: #F5F3EE;
   letter-spacing: 2px;
@@ -26,12 +26,7 @@ body {
 }
 
 .navbar-default .navbar-brand:hover {
-  font-size: 25px;
-  font-weight: bold;
   color: #F5F3EE;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  line-height: 35px;
 }
 
 /* containers */
@@ -49,40 +44,35 @@ body {
 }
 
 .jumbotron h1{
-  font-size: 80px;
+  font-size: 100px;
   font-weight: bold;
   padding: 0px 0 10px 0;
 }
 
 .jumbotron h2 {
-  padding: 10px 0 40px 0;
-}
-
-.container-color {
-  background-color: #2E80E1;
-  color: #F5F3EE;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.container-blank {
-  background-color: #ffffff;
-  color: gray;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  font-size: 60px;
+  padding: 30px 0 80px 0;
+  letter-spacing: 5px;
 }
 
 /* footer */
 
 .footer-links{
-  padding: 200px 40px 40px 40px;
-  height: 100%;
+  padding: 100px 40px 0px 40px;
 }
 
 /* fonts */
 
-h1 {
+h1 h2 {
   font-family: 'Varela Round', sans-serif;
+}
+
+.unstyled {
+  color: #CCC;
+}
+
+.unstyled:hover {
+  color: #A3A3A3;
 }
 
 /* buttons */
@@ -124,39 +114,13 @@ h1 {
 }
 
 .btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
-  color: #F5F3EE;
-  border-color: #F5F3EE;
+  color: #CCCCCC;
+  border-color: #CCCCCC;
 }
 .btn-primary.outline:active, .btn-primary.outline.active {
   border-color: #2E80E1;
   color: #2E80E1;
   box-shadow: none;
-}
-
-/* If you don't want the footer to be responsive, remove these media queries */
-
-@media (max-width: 600px) {
-
-	.footer-basic-centered{
-		padding: 35px;
-	}
-
-	.footer-basic-centered .footer-company-motto{
-		font-size: 18px;
-	}
-
-	.footer-basic-centered .footer-company-name{
-		font-size: 12px;
-	}
-
-	.footer-basic-centered .footer-links{
-		font-size: 14px;
-		padding: 25px 0 20px;
-	}
-
-	.footer-basic-centered .footer-links a{
-		line-height: 1.8;
-	}
 }
 
 /*flash*/
