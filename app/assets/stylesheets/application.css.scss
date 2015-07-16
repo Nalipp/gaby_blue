@@ -1,2 +1,189 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+
+body {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0 ;
+}
+
+/* navbar */
+
+.navbar-default {
+  background-color: #2E80E1;
+  border: 0px;
+  padding-top: 15px;
+  margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+  color: #F5F3EE;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 35px;
+}
+
+.navbar-default .navbar-brand:hover {
+  font-size: 25px;
+  font-weight: bold;
+  color: #F5F3EE;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 35px;
+}
+
+/* containers */
+
+.jumbotron{
+  background-color: #2E80E1;
+  color: #F5F3EE;
+  padding: 100px 40px 80px 40px;
+  width: 100%;
+  height: 100%;
+  background-position: 50% 0%!important;
+  top: 0px;
+  left: 0px;
+  margin-bottom: 0;
+}
+
+.jumbotron h1{
+  font-size: 80px;
+  font-weight: bold;
+  padding: 0px 0 10px 0;
+}
+
+.jumbotron h2 {
+  padding: 10px 0 40px 0;
+}
+
+.container-color {
+  background-color: #2E80E1;
+  color: #F5F3EE;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.container-blank {
+  background-color: #ffffff;
+  color: gray;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* footer */
+
+.footer-links{
+  padding: 200px 40px 40px 40px;
+  height: 100%;
+}
+
+/* fonts */
+
+h1 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+/* buttons */
+
+.btn {
+  padding: 14px 24px;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: 0 none;
+}
+
+.btn-primary {
+  background: #F5F3EE;
+  color: #F5F3EE;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  background: #F5F3EE;
+}
+
+.btn-primary:active, .btn-primary.active {
+  background: #007299;
+  box-shadow: none;
+}
+
+.btn.outline {
+  background: none;
+  padding: 12px 22px;
+}
+
+.btn-primary.outline {
+  border: 2px solid #F5F3EE;
+  color: #F5F3EE;
+}
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+  color: #F5F3EE;
+  border-color: #F5F3EE;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+  border-color: #2E80E1;
+  color: #2E80E1;
+  box-shadow: none;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-basic-centered{
+		padding: 35px;
+	}
+
+	.footer-basic-centered .footer-company-motto{
+		font-size: 18px;
+	}
+
+	.footer-basic-centered .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-basic-centered .footer-links{
+		font-size: 14px;
+		padding: 25px 0 20px;
+	}
+
+	.footer-basic-centered .footer-links a{
+		line-height: 1.8;
+	}
+}
+
+/*flash*/
+.alert-error {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
+ }
+
+.alert-alert {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
+ }
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: left;
+ }
+
+.alert-notice {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: left;
+ }
